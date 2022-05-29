@@ -2,40 +2,40 @@
 <form action="/api/users" method="POST" id="add_user">
   <div class="new_user">
     <div class="form-group">
-      <label for="name" class="text-light">Name</label>
+      <label for="name" class="text-light">Nom</label>
       <input type="hidden" name="id" value="" />
-      <input type="text" name="name" value="" placeholder="Mark Stoenis" />
+      <input type="text" name="name" value="" />
     </div>
     <div class="form-group">
       <label for="Email" class="text-light">Email</label>
       <input type="text" name="email" value="" placeholder="example@gmail.com" />
     </div>
     <div class="form-group">
-      <label for="gender" class="text-light">Gender</label>
+      <label for="gender" class="text-light">Genre</label>
       <div class="radio inline">
-        <input type="radio" id="radio-2" name="gender" value="Male" />
-        <label for="radio-2" class="radio-label">Male</label>
+        <input type="radio" id="radio-2" name="gender" value="Homme" />
+        <label for="radio-2" class="radio-label">Homme</label>
       </div>
       <div class="radio inline">
-        <input type="radio" id="radio-3" name="gender" value="Female" />
-        <label for="radio-3" class="radio-label">Female</label>
+        <input type="radio" id="radio-3" name="gender" value="Femme" />
+        <label for="radio-3" class="radio-label">Femme</label>
       </div>
     </div>
 
     <div class="form-group">
-      <label for="gender" class="text-light">Status</label>
+      <label for="gender" class="text-light">Statut</label>
       <div class="radio inline">
         <input type="radio" id="radio-4" name="status" value="Active" />
-        <label for="radio-4" class="radio-label">Active</label>
+        <label for="radio-4" class="radio-label">Activé</label>
       </div>
       <div class="radio inline">
         <input type="radio" id="radio-5" name="status" value="Inactive" />
-        <label for="radio-5" class="radio-label">Inactive</label>
+        <label for="radio-5" class="radio-label">Désactivé</label>
       </div>
     </div>
 
     <div class="form-group">
-      <button type="submit" class="btn text-dark update">Save</button>
+      <button type="submit" class="btn text-dark update">Enregistrer</button>
     </div>
   </div>
 </form>
